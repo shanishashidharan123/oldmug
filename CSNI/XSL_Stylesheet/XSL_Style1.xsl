@@ -21,7 +21,7 @@
 <link href="../images/CSNI_icon1.ico" id="CSNI_Icon" title="Icon of cosmeticsurgerynagpurindia.com" rel="shortcut icon" />
 <link href="../index.html" rel="index" title="Cosmtic Surgery Tours" />
 <script type="text/javascript" src="../Scripts/ADjav1.js"></script>
-<link href="../stylesheet/csni_css1.css" rel="stylesheet" type="text/css" />
+<link href="../stylesheet/csni_css2.css" rel="stylesheet" type="text/css" />
 </head>
 <body onload="MM_preloadImages('../images/CSNI_icon1.ico','../images/TMBG1.gif','../images/TMBG3.gif','../images/ContentBlockBG1.gif','../images/FT-BG.gif','../images/H2_line1.gif','../images/P_Testimonials_U_01.gif');closeall()">
 <div style="background-image:url(../images/BDr_line1.gif); background-repeat:repeat">
