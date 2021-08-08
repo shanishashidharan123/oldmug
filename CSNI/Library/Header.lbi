@@ -7,51 +7,25 @@
     Date Script
     </noscript>
   </div>
-  <div id="TimeSPc2">
-    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" name="USNI_Clock" width="80" height="20" id="USNI_Clock" title="Time Now">
-      <param name="movie" value="../flash/time.swf">
-      <param name="quality" value="high">
-      <param name="wmode" value="transparent">
-      <param name="swfversion" value="9.0.45.0">
-      <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
-      <param name="expressinstall" value="../Scripts/expressInstall.swf">
-      <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
-      <!--[if !IE]>-->
-      <object type="application/x-shockwave-flash" data="../flash/time.swf" width="80" height="20">
-        <!--<![endif]-->
-        <param name="quality" value="high">
-        <param name="wmode" value="transparent">
-        <param name="swfversion" value="9.0.45.0">
-        <param name="expressinstall" value="../Scripts/expressInstall.swf">
-        <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
-        <div id="AFP">
-          <p>Content on this page requires a newer version of Adobe Flash Player.</p>
-          <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"></a></p>
-          <p><a href="#" onClick="close_div('TimeSPc2')" onKeyPress="" title="Close">Close X</a></p>
-        </div>
-        <!--[if !IE]>-->
-      </object>
-      <!--<![endif]-->
-    </object>
-  </div>
-  <table width="100%" border="0" cellspacing="0" cellpadding="0" summary="Cosmeticsurgerynagpurindia.com; head links layout: Table1">
+  <table style="width:100%; border: 0px; padding: 0px" summary="Cosmeticsurgerynagpurindia.com; head links layout: Table1">
     <tr>
-      <td onclick="closeall()" onkeypress="closeall()" class="HDIMG1"><img src="../images/Head_01.gif" alt="Header of cosmeticsurgerynagpurindia.com" title="Cosmetic Surgery Nagpur India" width="369" height="100"></td>
+      <td class="HDIMG1"><img src="../images/Head_01.gif" alt="Header of cosmeticsurgerynagpurindia.com" title="Cosmetic Surgery Nagpur India" width="369" height="100"></td>
       <td class="HDBG2"><div id="Hmenu1">
-          <table border="0" cellpadding="0" cellspacing="0" summary="Cosmeticsurgerynagpurindia.com; head links layout: Table2">
+          <table  summary="Cosmeticsurgerynagpurindia.com; head links layout: Table2">
             <tr>
               <td class="Hm1"><div class="Rltive1">
-                  <table width="100%" border="0" cellspacing="0" cellpadding="0" summary="Cosmeticsurgerynagpurindia.com; head links: Surgery and treatments - layout: Table1">
+                  <table style="width:100%; border: 0px; padding: 0px" summary="Cosmeticsurgerynagpurindia.com; head links: Surgery and treatments - layout: Table1">
                     <tr>
-                      <td><a href="../Cosmetic-surgery-treatment-nagpur-India.html" onmouseover="openSTs()" onfocus="openSTs()" title="Available cosmetic surgery and treatments in Nagpur, India">Surgery and treatments</a></td>
+                      <td><a href="../Cosmetic-surgery-treatment-nagpur-India.html" onMouseOver="openSTs()" onFocus="openSTs()" title="Available cosmetic surgery and treatments in Nagpur, India">Surgery and treatments</a></td>
                     </tr>
                   </table>
                   <div id="SurTrtms1">
-                    <table border="0" cellspacing="0" cellpadding="0" summary="Cosmeticsurgerynagpurindia.com; menu: Surgery and treatments - layout: Table1">
+                    <table  summary="Cosmeticsurgerynagpurindia.com; menu: Surgery and treatments - layout: Table1">
                       <tr>
-                        <td class="STBrd1"><table border="0" cellspacing="0" cellpadding="0" summary="Cosmeticsurgerynagpurindia.com; menu: Surgery and treatments - layout: Table2">
+                        <td class="STBrd1">
+                            <table  summary="Cosmeticsurgerynagpurindia.com; menu: Surgery and treatments - layout: Table2">
                             <tr>
-                              <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" summary="Cosmeticsurgerynagpurindia.com; menu: Surgery and treatments - layout: Table3">
+                              <td valign="top"><table style="width:100%; border: 0px; padding: 0px" summary="Cosmeticsurgerynagpurindia.com; menu: Surgery and treatments - layout: Table3">
                                   <tr>
                                     <td valign="top" class="wdST1"><div> <a href="../procedures/arm_lift_cosmetic_surgery_nagpur_india.html" title="Arm lift">Arm lift</a></div>
                                       <div><a href="../procedures/Blepharoplasty_cosmetic_surgery_nagpur_india.html" title="Eyelid surgery">Blepharoplasty</a></div>
@@ -69,7 +43,7 @@
                                       <div><a href="../procedures/Endermologie_cosmetic_surgery_nagpur_india.html" title="Endermologie">Endermologie</a></div></td>
                                   </tr>
                                 </table></td>
-                              <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" summary="Cosmeticsurgerynagpurindia.com; menu: Surgery and treatments - layout: Table4">
+                              <td valign="top"><table style="width:100%; border: 0px; padding: 0px" summary="Cosmeticsurgerynagpurindia.com; menu: Surgery and treatments - layout: Table4">
                                   <tr>
                                     <td valign="top" class="wdST1"><div> <a href="../procedures/Endoscopy_keyhole_cosmetic_surgery_nagpur_india.html" title="Keyhole plastic surgery">Endoscopy</a></div>
                                       <div> <a href="../procedures/Face_Lift_cosmetic_surgery_nagpur_india.html" title="Face lift">Face lift</a></div>
@@ -87,7 +61,7 @@
                                       <div> <a href="../procedures/Laser_Vein_treatment_cosmetic_surgery_nagpur_india.html" title="Laser vein treatment">Laser vein treatment</a></div></td>
                                   </tr>
                                 </table></td>
-                              <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" summary="Cosmeticsurgerynagpurindia.com; menu: Surgery and treatments - layout: Table5">
+                              <td valign="top"><table style="width:100%; border: 0px; padding: 0px" summary="Cosmeticsurgerynagpurindia.com; menu: Surgery and treatments - layout: Table5">
                                   <tr>
                                     <td valign="top" class="wdST1"><div><a href="../procedures/Liposuction_cosmetic_surgery_nagpur_india.html" title="Liposuction">Liposuction</a></div>
                                       <div> <a href="../procedures/Mentoplasty_Chin_Surgery_cosmetic_surgery_nagpur_india.html" title="Chin surgery">Mentoplasty</a></div>
@@ -106,42 +80,43 @@
                                   </tr>
                                 </table></td>
                             </tr>
-                          </table></td>
+                          </table>
+                          </td>
                       </tr>
                     </table>
                   </div>
                 </div></td>
               <td> </td>
               <td class="Hm1"><div class="Rltive1">
-                  <table width="100%" border="0" cellspacing="0" cellpadding="0" summary="Cosmeticsurgerynagpurindia.com; menu: Info Nagpur - layout: Table1">
+                  <table style="width:100%; border: 0px; padding: 0px" summary="Cosmeticsurgerynagpurindia.com; menu: Info Nagpur - layout: Table1">
                     <tr>
-                      <td><a href="../Nagpur-India-Info.html" onmouseover="closeall()" onfocus="closeall()" title="Information on Nagpur city, INDIA">Info-Nagpur</a></td>
+                      <td><a href="../Nagpur-India-Info.html"  title="Information on Nagpur city, INDIA">Info-Nagpur</a></td>
                     </tr>
                   </table>
                 </div></td>
               <td> </td>
               <td class="Hm1"><div class="Rltive1">
-                  <table width="100%" border="0" cellspacing="0" cellpadding="0" summary="Cosmeticsurgerynagpurindia.com; menu: Help Desk - layout: Table1">
+                  <table style="width:100%; border: 0px; padding: 0px" summary="Cosmeticsurgerynagpurindia.com; menu: Help Desk - layout: Table1">
                     <tr>
-                      <td><a href="../Help-Desk.html" onmouseover="openHd()" onfocus="openHd()" title="Help desk">Help-desk</a>
+                      <td><a href="../Help-Desk.html" onMouseOver="openHd()" onFocus="openHd()" title="Help desk">Help-desk</a>
                         <div id="Hdesk">
-                          <table width="100%" border="0" cellspacing="0" cellpadding="0" summary="Cosmeticsurgerynagpurindia.com; menu: Help Desk - layout: Table2">
+                          <table style="width:100%; border: 0px; padding: 0px" summary="Cosmeticsurgerynagpurindia.com; menu: Help Desk - layout: Table2">
                             <tr>
-                              <td class="Hm2" scope="row"><table width="100%" border="0" cellspacing="0" cellpadding="0" summary="Cosmeticsurgerynagpurindia.com; menu: Help Desk - layout: Table3">
+                              <td class="Hm2" scope="row"><table style="width:100%; border: 0px; padding: 0px" summary="Cosmeticsurgerynagpurindia.com; menu: Help Desk - layout: Table3">
                                   <tr>
                                     <td><a href="http://www.theweathernetwork.com/" target="_blank" title="http://www.theweathernetwork.com/, this link open in a new window">Weather</a></td>
                                   </tr>
                                 </table></td>
                             </tr>
                             <tr>
-                              <td class="Hm2"><table width="100%" border="0" cellspacing="0" cellpadding="0" summary="Cosmeticsurgerynagpurindia.com; menu: Help Desk - layout: Table4">
+                              <td class="Hm2"><table style="width:100%; border: 0px; padding: 0px" summary="Cosmeticsurgerynagpurindia.com; menu: Help Desk - layout: Table4">
                                   <tr>
                                     <td><a href="http://corp.americanexpress.com/gcs/travel/us/corp/ctn/resources/timecalculator.aspx" target="_blank" title="http://corp.americanexpress.com/gcs/travel/us/corp/ctn/resources/timecalculator.aspx, this link open in a new window">Global timings</a></td>
                                   </tr>
                                 </table></td>
                             </tr>
                             <tr>
-                              <td class="Hm2"><table width="100%" border="0" cellspacing="0" cellpadding="0" summary="Cosmeticsurgerynagpurindia.com; menu: Help Desk - layout: Table5">
+                              <td class="Hm2"><table style="width:100%; border: 0px; padding: 0px" summary="Cosmeticsurgerynagpurindia.com; menu: Help Desk - layout: Table5">
                                   <tr>
                                     <td><a href="http://www.xe.com" target="_blank" title="http://www.xe.com, this link open in a new window">Convert currency </a></td>
                                   </tr>
