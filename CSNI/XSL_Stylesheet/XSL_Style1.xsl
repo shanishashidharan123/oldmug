@@ -33,7 +33,7 @@
         <div id="header">
           <div id="TimeSPc1">
             <strong>Date and Time <em>(Report Edition)</em>: </strong>
-            <!-- #BeginDate format:fcAm1m -->Saturday, January 7, 2012  19:35<!-- #EndDate -->
+            <!-- #BeginDate format:fcAm1m -->Thursday, September 2, 2021  1:15<!-- #EndDate -->
             </div>
           <table   summary="Cosmeticsurgerynagpurindia.com; head links layout: Table1">
             <tr>
@@ -191,7 +191,6 @@
                     </tr>
                     </xsl:for-each>
                   </table>
-                <p> </p>
               <div class="PGtop"><a href="#top" title="Back to top of this page">Back to top</a></div>
     </div>
             </div></td>
