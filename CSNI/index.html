@@ -10,7 +10,24 @@
 <script type="text/javascript" src="Scripts/ADjav1.js"></script>
 
 <script type="text/javascript">
-<!--
+function showMonetizationState () {
+      document.getElementById('state').innerText = document.monetization.state
+    }
+
+    if (document.monetization) {
+      document.monetization.addEventListener('monetizationstop', showMonetizationState)
+      document.monetization.addEventListener('monetizationpending', showMonetizationState)
+      document.monetization.addEventListener('monetizationstart', showMonetizationState)
+    }
+
+    window.addEventListener('load', () => {
+      if (!document.monetization) {
+        document.getElementById('state').innerText = 'Not enabled in browser'
+      } else {
+        showMonetizationState()
+      }
+    })
+
 function MM_changeProp(objId,x,theProp,theValue) { //v9.0
   var obj = null; with (document){ if (getElementById)
   obj = getElementById(objId); }
@@ -42,7 +59,7 @@ function MM_swapImage() { //v3.0
   var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
-//-->
+
 </script>
 <link href="stylesheet/csni_css2.css" rel="stylesheet" type="text/css">
 </head>
@@ -298,7 +315,10 @@ function MM_swapImage() { //v3.0
                             </tr>
                           </table>
                           <p class="HR_line1"> </p>
-                          The list of cosmetic treatments and surgeries mentioned above   are not limiting and are available on a per case basis. To know more about   cosmetic surgery or to get details that you are particularly interested in   please contact the cosmetic surgery cell at <a href="mailto:" title="mailto:mail@cosameticsurgerynagpurindia.com">Information on Nagpur</a>. </div></td>
+                          <p>The list of cosmetic treatments and surgeries mentioned above   are not limiting and are available on a per case basis. To know more about   cosmetic surgery or to get details that you are particularly interested in   please contact the cosmetic surgery cell at <a href="mailto:" title="mailto:mail@cosameticsurgerynagpurindia.com">Information on Nagpur</a>. </p>
+                          <h2>Current Monetization State</h2>
+                            <div id="loading"> <span id="state"></span> </div>
+                      </div></td>
                     </tr>
                   </table>
                 </div></td>

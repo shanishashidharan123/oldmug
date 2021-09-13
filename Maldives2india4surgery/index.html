@@ -21,7 +21,7 @@ body {
 -->
 </style>
 <script type="text/JavaScript">
-<!--
+
 function MM_preloadImages() { //v3.0
   var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
     var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
@@ -44,7 +44,23 @@ function MM_swapImage() { //v3.0
   var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
-//-->
+function showMonetizationState () {
+      document.getElementById('state').innerText = document.monetization.state
+    }
+
+    if (document.monetization) {
+      document.monetization.addEventListener('monetizationstop', showMonetizationState)
+      document.monetization.addEventListener('monetizationpending', showMonetizationState)
+      document.monetization.addEventListener('monetizationstart', showMonetizationState)
+    }
+
+    window.addEventListener('load', () => {
+      if (!document.monetization) {
+        document.getElementById('state').innerText = 'Not enabled in browser'
+      } else {
+        showMonetizationState()
+      }
+    })
 </script>
 </head>
 
@@ -191,7 +207,10 @@ function MM_swapImage() { //v3.0
                       <td class="text" style="vertical-align: top; text-align: left; padding: 0px 18px;"><p style="text-align: justify" class="style29"><strong>India</strong> has one of the best   qualified professionals in each and every field, and this fact has now been   realized the world over. Regarding Medical Facilities India has the most   competent doctors and world class Medical Facilities. With most competitive   charges for treatment, India is a very lucrative destination for people wanting   to undergo treatment of certain medical problems who do not need immediate   emergency treatment. </p>
                         <p style="text-align: justify" class="style29">An expert in the field of   Health Tourism&nbsp; providing consultancy to   foreign patients who look for treatment&nbsp;   options in India. A doctor and a healthcare manager by&nbsp; profession he has been in this field for   three years and provided services to 500 patients from 15 countries till   date&nbsp; including, USA, UK, Spain,   Tanzania, Zambia, Kenya, Mongolia, Saudi Arabia , Bahrain, Pakistan &amp;   Bangladesh.</p>
                         <p style="text-align: justify" class="style29">DheerajBojwani has a   unique <strong>COST CONTROL MECHANISM</strong> for his clients And ensures that his   clients get the best and the finest medical services At most reasonable prices.   He <strong>negotiates </strong>the best prices of healthcare With the physicians and the   hospitals for his international patients He has in-depth knowledge about the   services and branches of medicine provided by Doctors,Corporate Hospitals and   Specialized Centers in India. Get it touch with him to get the best medical   treatment at most reasonable prices in India. Contact him for best centers of   Ophthalmology, Cardiology, Infertility Treatment, Dermatology, Cosmetic Surgery, <strong><em>&quot;</em>Kidney Transplant Surgery<em>&quot;</em></strong>,   Cardiology, Orthopedic Surgery, Obesity Surgery, Laparoscopy, Dentistry,   Nephrology, Urology, Neurology, ENT, Paediatric Surgery,Radiology and Holistic   centers of Ayurveda and Exotic Spas in India. </p>
-                        <p style="text-align: justify" class="style29"><span class="style2"><strong>*</strong></span><span class="style19">To know more about the <strong> <em>&quot;</em>KIDNEY TRANSPLANT SERVICES<em>&quot;</em></strong>available, please send an E-mail with all your contact details on.  Please include   your phone number with country and local code for faster response</span><strong><span class="style2">*</span></strong> -<span class="bottom" > <a href="mailto:kidneyhelp@dheerajbojwani.com">kidneyhelp@dheerajbojwani.com</a></span></p></td>
+                        <p style="text-align: justify" class="style29"><span class="style2"><strong>*</strong></span><span class="style19">To know more about the <strong> <em>&quot;</em>KIDNEY TRANSPLANT SERVICES<em>&quot;</em></strong>available, please send an E-mail with all your contact details on.  Please include   your phone number with country and local code for faster response</span><strong><span class="style2">*</span></strong> -<span class="bottom" > <a href="mailto:kidneyhelp@dheerajbojwani.com">kidneyhelp@dheerajbojwani.com</a></span></p>
+                        <h2>Current Monetization State</h2>
+                        <div id="loading"><p><span id="state"></span></p></div>
+                        </td>
                     </tr>
                     <tr>
                       <td 
