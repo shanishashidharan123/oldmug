@@ -49,7 +49,7 @@ a:link {
   text-decoration: none; }
 
 a:visited {
-  color: #999966;
+  color: #e2bdf1;
   text-decoration: none; }
 
 a:hover {
@@ -240,7 +240,7 @@ a:active {
   border-left-color: #006699; }
 
 .Hm1 a:visited {
-  color: #CCCC99;
+  color: #e2bdf1;
   text-decoration: none;
   margin: 0em;
   padding: 0.375em;
@@ -388,7 +388,7 @@ a:active {
   border-left-color: #006699; }
 
 .wdST1 a:visited {
-  color: #999966;
+  color: #e2bdf1;
   text-decoration: none;
   margin: 0em;
   border-top-style: solid;
@@ -570,7 +570,7 @@ a:active {
   border-left-color: #006699; }
 
 .Hm2 a:visited {
-  color: #999966;
+  color: #e2bdf1;
   text-decoration: none;
   margin: 0em;
   padding: 0.375em;
@@ -670,7 +670,7 @@ a:active {
   float: left; }
 
 #headlinks1 a:visited {
-  color: #999966;
+  color: #b474b9;
   text-decoration: none;
   border-top-width: thin;
   border-right-width: thin;
@@ -1001,7 +1001,7 @@ samp {
   text-decoration: none; }
 
 #PageContent1 a:visited {
-  color: #999966;
+  color: #e2bdf1;
   text-decoration: none; }
 
 #PageContent1 a:hover {
@@ -1065,7 +1065,7 @@ samp {
   padding-left: 0.125em;
   border: thin solid #FFFFFF;
   margin: 0em;
-  color: #999966; }
+  color: #d600bd; }
 
 #PageContent1 .listAlinLeft1 a:hover {
   padding-right: 0.5em;
@@ -1457,7 +1457,7 @@ samp {
   border-left-color: #006699; }
 
 .blocklink1 a:visited {
-  color: #CCCC99;
+  color: #e2bdf1;
   font-weight: bold;
   text-decoration: none;
   margin: 0em;
@@ -1698,7 +1698,7 @@ form {
   text-decoration: none; }
 
 #Footer a:visited {
-  color: #999966;
+  color: #e2bdf1;
   text-decoration: none; }
 
 #Footer a:hover {
